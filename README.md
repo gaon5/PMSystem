@@ -1,82 +1,75 @@
+# **XiangNeng Smart Property Management System - Test Cases**
 
-
-# XiangNeng Smart Property Management System - Test Cases
-
-## Overview
-
-This repository contains the **test cases** for the **XiangNeng Smart Property Management System**. These test cases are designed to validate the system's functionality, ensure data accuracy, and maintain user experience quality. Each module is tested for core functionality, validation scenarios, and edge cases.
+## **Overview**
+This repository contains the **test cases** for the **XiangNeng Smart Property Management System**. These test cases ensure the system functions correctly, maintains data accuracy, and provides a seamless user experience. Each module is tested for critical functionality, validation scenarios, and edge cases.
 
 ---
 
-## Modules and Coverage
+## **Modules and Coverage**
 
 ### 1. **Building Management**
-Test cases in this module cover:
-- Adding, editing, and deleting building information.
-- Validation of required fields and input constraints.
-- Pagination for large building lists.
+- Add, edit, and delete building information.
+- Validate required fields and input constraints.
+- Handle large building lists with pagination.
 
 ### 2. **Owner Management**
-Test cases in this module cover:
-- Adding and managing owner information with required and optional fields.
-- Querying owners with various filters (e.g., name, phone, ID).
-- Validation of pagination and data accuracy for owner lists.
+- Add and manage owner details, including required and optional fields.
+- Query owners using filters such as name, phone, and ID.
+- Validate pagination and ensure data accuracy in owner lists.
 
 ### 3. **Billing**
-Test cases in this module cover:
-- Adding and editing billing items.
-- Validation of billing calculations and formulas.
-- Managing invoices for properties and owners.
+- Add and edit billing items with accurate calculations.
+- Validate formulas used in billing.
+- Manage property and owner invoices.
 
 ### 4. **Query Handling**
-Test cases in this module cover:
-- Search functionalities with exact, fuzzy, and incorrect inputs.
-- Combined filter queries for complex searches.
-- Validation of data completeness and correctness across backend and frontend.
-
-
-## Repository Structure
-
-```
-.
-├── README.md               # Project overview and instructions
-├── TestCases/              # Directory for test cases
-│   ├── BuildingManagement.md  # Test cases for building management
-│   ├── OwnerManagement.md     # Test cases for owner management
-│   ├── Billing.md             # Test cases for billing and payments
-│   ├── QueryHandling.md       # Test cases for query handling
-└── Documentation/          # System documentation and resources
-    ├── Requirements.pdf    # Functional requirements for the system
-    ├── TestPlan.md         # Overall testing plan
-    └── BugSummary.pdf  # Bug Track Report
-```
+- Test search functionalities with exact, fuzzy, and incorrect inputs.
+- Combine filters for complex queries.
+- Validate data completeness and consistency across backend and frontend.
 
 ---
 
-## Test Case Structure
+## **Repository Structure**
 
-Each test case is documented with the following format:
+```plaintext
+.
+├── README.md               # Project overview and instructions
+├── Documentation/          # System documentation and resources
+│   ├── Requirements.pdf    # Functional requirements for the system
+│   ├── TestPlan.md         # Overall testing plan
+│   └── BugSummary.pdf      # Bug track report
+```
+
+### **Google Sheets Test Cases**
+The detailed test cases are available as Google Sheets:
+- [View Test Cases in Google Sheets](https://docs.google.com/spreadsheets/d/1d_qqttPVivKSL7Ls0hp1P4UVSwwHRLMy/edit?usp=sharing)
+
+---
+
+## **Test Case Structure**
+
+Each test case follows this structured format for clarity and consistency:
 
 | Field               | Description                                                                 |
 |---------------------|-----------------------------------------------------------------------------|
-| **Test Case ID**    | Unique identifier for the test case                                        |
-| **Title**           | Brief description of what the test case validates                         |
-| **Priority Level**  | Importance of the test case (High, Medium, Low)                           |
-| **Preconditions**   | Conditions that must be met before executing the test                     |
-| **Test Input**      | Input values or data used for the test                                    |
-| **Steps to Execute**| Step-by-step instructions for executing the test                          |
-| **Expected Result** | The expected outcome of the test                                          |
+| **Test Case ID**    | Unique identifier for the test case.                                        |
+| **Title**           | Brief description of what the test case validates.                         |
+| **Priority Level**  | Importance of the test case (High, Medium, Low).                           |
+| **Preconditions**   | Conditions that must be met before executing the test.                     |
+| **Test Input**      | Input values or data used for the test.                                    |
+| **Steps to Execute**| Step-by-step instructions for executing the test.                          |
+| **Expected Result** | The expected outcome of the test.                                          |
 
 ---
 
-## Example Test Case
+## **Example Test Case**
 
-### Test Case: Add a Building Successfully
+### **Test Case: Add a Building Successfully**
 
 | Field               | Description                                                                 |
 |---------------------|-----------------------------------------------------------------------------|
 | **Test Case ID**    | BM001                                                                      |
-| **Title**           | Add a building with valid data                                             |
+| **Title**           | Add a building with valid data.                                             |
 | **Priority Level**  | High                                                                       |
 | **Preconditions**   | System access is normal; user has property manager permissions.            |
 | **Test Input**      | Building Code: `001`, Building Name: `Block A`, Building Area: `1000`.      |
@@ -85,26 +78,28 @@ Each test case is documented with the following format:
 
 ---
 
-## How to Use This Repository
+## **How to Use This Repository**
 
-1. Clone the repository:
+1. **Clone the repository**:
    ```bash
-   git clone https://github.com/gaon5/PMSystem
-   cd your-repo
+   git clone https://github.com/gaon5/PMSystem.git
+   cd PMSystem
    ```
 
-2. Navigate to the `TestCases` directory for detailed test cases.
+2. **Access Test Cases**:
+   - Use the [Google Sheets link](https://docs.google.com/spreadsheets/d/1d_qqttPVivKSL7Ls0hp1P4UVSwwHRLMy/edit?usp=sharing) for detailed test cases.
 
-3. Use the `Documentation/` folder for system requirements and testing plans.
+3. **Explore Documentation**:
+   - Navigate to the `Documentation/` folder for system requirements, test plans, and bug summaries.
 
 ---
 
-## Contribution
+## **Contribution Guidelines**
 
-We welcome contributions! Please follow these steps:
+We welcome contributions to improve the testing process. Please follow these steps:
 1. Fork this repository.
-2. Add or edit test cases.
-3. Submit a pull request with a description of your changes.
+2. Add or update test cases in the repository or Google Sheets.
+3. Submit a pull request with a clear description of your changes.
 
 ---
 
