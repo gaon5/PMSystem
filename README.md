@@ -48,7 +48,7 @@ Test cases in this module cover:
 └── Documentation/          # System documentation and resources
     ├── Requirements.pdf    # Functional requirements for the system
     ├── TestPlan.md         # Overall testing plan
-    └── Specifications.pdf  # System specifications
+    └── BugSummary.pdf  # Bug Track Report
 ```
 
 ---
