@@ -1,7 +1,7 @@
 # **XiangNeng Smart Property Management System - Test Cases**
 <div align="center">
   
-  <img src="/public/chan_snorkelling.gif" width="100%" alt="Chan Meng Snorkelling">
+  <img src="/public/PM_Testcases.gif" width="100%" alt="Chan Meng Snorkelling">
 </div>
 
 ## **Overview**
