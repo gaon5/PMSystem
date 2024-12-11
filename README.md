@@ -1,4 +1,8 @@
 # **XiangNeng Smart Property Management System - Test Cases**
+<div align="center">
+  
+  <img src="/public/chan_snorkelling.gif" width="100%" alt="Chan Meng Snorkelling">
+</div>
 
 ## **Overview**
 This repository contains the **test cases** for the **XiangNeng Smart Property Management System**. These test cases ensure the system functions correctly, maintains data accuracy, and provides a seamless user experience. Each module is tested for critical functionality, validation scenarios, and edge cases.
